@@ -3,53 +3,77 @@
   margin: 0;
 }
 
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 nav {
   background: rgb(44, 44, 44);
   color: white;
   width: 100%;
-  height: 30px;
-  padding: 6px 50%;
+  height: 50px;
+  padding-top: 20px;
+  font-size: x-large;
+  text-align: center;
 }
 
 main {
   display: flex;
+  padding: 10px;
+  margin: 5px;
 }
 
+.header {
+  padding: 20px;
+  margin-left: 250px;
 
-.personal {
-
-  height: 200px;
-  
-  
+  display: inline-block;
+  margin-top: 30px;
 }
 
+#personal {
+  height: 220px;
+  width: 170px;
+  background: white;
+  justify-content: center;
+  align-items: center;
+}
+
+#personal h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+.material-symbols-outlined {
+  font-size: 150px;
+  color: black;
+}
+
+.enunciado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .tarjeta {
-
   border-radius: 5px;
   border: 1px solid black;
-  width: 300px;
+  width: 800px;
   padding: 10px;
-  margin: 20px ;
-
-
-  background-color: rgb(219, 219, 219);
+  margin: 20px;
+  background-color: rgb(236, 236, 236);
 }
 
-button{
-
-  margin-left: auto;
-  padding: 5px 10px;
+button {
+  margin-left: 20px;
+  padding: 5px 20px;
   border-radius: 5px;
-  color: black;
-  background: yellow;
+  border: none;
+  background: rgb(255, 240, 80);
 }
-
-.btn-like{
-    display: flex;
-}
-
 
 a {
   color: blue;
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+p {
+  margin: 20px 0;
 }
