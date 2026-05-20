@@ -1,28 +1,15 @@
 
 
 
-// creo variable que captura el ID del boton like del html
-let like1= document.querySelector("#like1");
+// variable que obtiene la clase de html de los botones
+let botonLike= document.querySelectorAll(".btn-like");
+// variable que obtiene la clase de html del texto de likes
+let Likes = document.querySelectorAll(".textoLike"); 
 
-//creo un contador que parte de 0 
-let contarLikes = 0;
-
-like1.addEventListener("click", function() {
-    contarLikes++;  // aqui se van sumando los likes del click (evento)
-    like1.innerHTML = contarLikes + "likes(s)";
-});
-
-
-
-
-
-// creo variable que captura el ID del boton like del html
-let like2= document.querySelector("#like2");
-
-//creo un contador que parte de 0 
-
-
-like2.addEventListener("click", function() {
-    contarLikes++;  // aqui se van sumando los likes del click (evento)
-    like2.innerHTML = contarLikes + "likes(s)";
-});
+for (let i = 0; i < botonLike.length; i++){
+    let contador = 0;
+    botonLike[i].addEventListener("click", function(){
+        contador++;
+        Likes[i].textContent = contador + " like(s)";       
+    });
+}
