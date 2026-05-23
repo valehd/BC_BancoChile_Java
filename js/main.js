@@ -26,4 +26,15 @@ tareaClick.forEach(function(tarea){
 
 //funcionalidad 3: cursor sobre icono, cambia a otro icono
 
+function  cambiarImagen(){
+
+
+let imgNotificacion= document.getElementById("notificacion")
+if(imgNotificacion.src.includes("notificaciones-1.png")) {
+    imgNotificacion.src="imgs/notificaciones-2.png";
+}else { imgNotificacion.src="imgs/notificaciones-1.png";
+
+}}
+
+
 
