@@ -1,50 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Examen 1</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <header>
-        <h1> Administrador de tareas</h1>
-        <nav> <h2>TaskPro</h2>
-            <li><a href="#">Panel de Control</a></li>
-            <li><a href="#"> Mis Tareas</li>a></li>
-            <li><a href="#">Notificaciones</a></li>
-            <li><a href="#">configuración</a></li>
-            <li><a href="#">Cerrar Sesión</a></li>
-        
-        </nav>
+      <h1 class="title">Administrador de tareas</h1>
     </header>
 
-    
     <main>
-<section class="tareas">
-    <h3>Mis Tareas</h3>
-    <div class="tarea">
-        <p>Terminar el reporte mensual</p>
-   
-    </div>
-    <div class="tarea">
-        <p>Maquetar el sitio web</p>
-  
-    </div>
-        <div class="tarea">
-        <p>Maquetar el sitio web</p>
-  
-    </div>
+      <sidebar class="menu"
+        ><h2>TaskPro</h2>
+        <ul>
+          <li>
+            <a href="#"></a>
+              <img src="imgs/panel.png" alt="panel" />Panel de Control
+              </a>
+          </li>
+          <li>
+            <a href="#"><img src="imgs/mis-tareas.png" alt="tareas" /> Mis Tareas</a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="imgs/notificaciones-1.png" alt="notificaciones" />Notificaciones 
+              </a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="imgs/configuracion.png" alt="configuracion" />configuración 
+              </a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="imgs/cerrar-sesion.png" alt="cerrarSesion" />Cerrar Sesión</a
+            >
+          </li>
+        </ul></sidebar
+      >
 
-</section>
+      <div class="ladoderecho">
+        <div class="busqueda"><input type="text" id="textoingresado" /> <button id="crearTarea">+ Crear Tarea</button></div>
+
+        <section class="tarjetas">
+          <div> <img src="imgs/todos.png" alt="todos"> 8 <p>todas</p></div>
+          <div> <img src="imgs/completados.png" alt="completos">3<p>Completadas</p></div>
+          <div> <img src="imgs/en-proceso.png" alt="proceso">4 <p>En proceso</p></div>
+          <div><img src="imgs/pendientes.png" alt="pendiente">1 <p>pendientes</p></div>
+        </section>
+        <section class="tareas">
+          <h3>Mis Tareas</h3>
+          <div class="tarea">
+            <p>Terminar el reporte mensual</p> <img src="imgs/puntos.png" alt="puntos"><p>Hoy</p>
+          </div>
+          <div class="tarea">
+            <p>Maquetar el sitio web</p> <img src="imgs/puntos.png" alt="puntos"><p>Hoy</p>
+          </div>
+
+          <div class="tarea">
+            <p>Agregar funcionalidades al sitio web</p><img src="imgs/puntos.png" alt="puntos"><p>Mañana</p>
+          </div>
+          <div class="tarea">
+            <p>Desplegar la aplicación</p><img src="imgs/puntos.png" alt="puntos"><p>Esta semana</p>
+          </div>
+        </section>
+      </div>
     </main>
-    
-    
-    
-    
-    
-    
+
     <script src="js/main.js" defer></script>
-</body>
+  </body>
 </html>
