@@ -1,0 +1,185 @@
+/**Reseteo estilos generales**/
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/** Estilos header**/
+header {
+  color: white;
+  background-color: black;
+  position: relative;
+  padding: 20px;
+}
+
+.login {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.login a{
+     text-decoration: none;
+    color: white;
+}
+.iconos {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+
+.iconos img{
+    width: auto;
+    height: 20px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.titulo img {
+  height: 40px;
+}
+
+.menu {
+  margin-top: 15px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 50px;
+}
+
+/** retiro estilos de todas las listas**/
+li {
+  list-style: none;
+  padding: 5px;
+}
+
+
+
+h1
+{
+  text-decoration: underline;
+  text-decoration-color: rgb(253, 230, 128);
+  text-underline-offset: 10px;
+  font-size: 40px;
+  color: white;
+  margin: 0;
+  padding: 0;
+
+}
+
+h3 {
+  padding: 5px;
+  margin: 10px;
+  font-weight: 300;
+    border-bottom: 3px solid rgb(253, 230, 128);
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 img{
+    height: 18px;
+    width: auto;
+}
+/** Estilos contenido principal**/
+main {
+  display: flex;
+  margin: 20px;
+}
+
+.card {
+  background-color: rgb(219, 219, 219);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+/** Estilos contenido izquierdo**/
+
+.seccionIzquierda {
+  flex: 1;}
+
+h2 {
+  text-align: center;
+}
+
+/** Estilos botones**/
+
+.btn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  border: none;
+}
+
+#btnFiltrar, #btnPiedras{
+  background-color:  rgb(253, 230, 128);
+}
+
+#btnStrawberry{
+  background-color: black;
+  color: white;
+
+}
+
+/** Estilos contenido derecha**/
+
+.seccionDerecha {
+  flex: 3;
+  flex-direction: column;
+  display: flex;
+}
+
+.contenidoVotaciones {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.subtitulo {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 35px;
+  font-style: bold;
+}
+
+.votaciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+.votaciones img {
+  width: 300px;
+  height: auto;
+}
+
+article > p {
+  text-align: center;
+  margin: 10px;
+  font-size: large;
+    font-weight: 600;
+
+
+}
+
+.contador{
+    font-size: xx-large;
+    font-weight: 500;
+
+}

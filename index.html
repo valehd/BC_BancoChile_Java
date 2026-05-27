@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Examen 2</title>
+  </head>
+  <body>
+    <header>
+      <nav class="login">
+        <a href="#">Inicio de Sesión</a>
+                <a href="#">-</a>
+        <a href="#">Registro</a>
+      </nav>
+
+      <div class="titulo">
+        <img src="imgs/rayo.png" alt="rayo" />
+        <h1>Batalla musical</h1>
+        <img src="imgs/rayo.png" alt="rayo" />
+      </div>
+
+
+      <nav class="menu">
+        <ul>
+          <li>Géneros</li>
+          <li>Batallas Pasadas</li>
+          <li>Eventos</li>
+          <li>Patrocinadores</li>
+          <li>Inscripciones</li>
+        </ul>
+      </nav>
+
+      <section class="iconos">
+        <img src="imgs/mapa.png" alt="mapa" />
+        <img src="imgs/perfil.png" alt="perfil" />
+        <img src="imgs/mensajes.png" alt="mensajes" />
+      </section>
+    </header>
+
+    <main>
+      <section class="seccionIzquierda card">
+        <h2>Filtros</h2>
+
+        <article class="genero">
+          <h3>GÉNERO MUSICAL       <img src="imgs/selector.png" alt="selector"></h3>
+          <ul>
+            <li><input type="checkbox"> Clásica</li>
+            <li><input type="checkbox"> Rock</li>
+            <li><input type="checkbox"> Jazz</li>
+            <li><input type="checkbox"> Pop</li>
+          </ul>
+        </article>
+
+        <article class="epoca">
+          <h3>ÉPOCA <img src="imgs/selector.png" alt="selector"></h3>
+          <ul class="listaFiltros">
+            <li> <input type="checkbox"> Años 80s</li>
+            <li><input type="checkbox"> Años 90s</li>
+            <li><input type="checkbox"> Años 2000s</li>
+          </ul>
+        </article>
+        <button class="btn" id="btnFiltrar">Filtrar</button>
+      </section>
+
+      <section class="seccionDerecha card">
+      <div class="subtitulo"><h4>Votaciones</h4></div>
+
+      <div class="contenidoVotaciones">
+      <article class="votaciones">
+        <img src="imgs/banda-1.jpg" alt="Banda Strawberry">
+        <p>Strawberry Fields Forever</p>
+        <span class="contador">0</span>
+        <button class="btn votar" id="btnStrawberry">Votar</button>
+
+      </article>
+
+       <article class="votaciones">
+      <img src="imgs/banda-2.jpg" alt="Piedras Rodantes">
+      <p>Las Piedras rodantes</p>
+      <span class="contador">0</span>
+      <button class="btn votar" id="btnPiedras">Votar</button>
+     
+
+      </article>
+      </div>
+      </section>
+
+    </main>
+        <script src="js/main.js" defer></script>
+  </body>
+</html>
