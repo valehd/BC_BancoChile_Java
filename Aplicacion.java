@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-
 import clases.CuentaBancaria;
 import clases.Persona;
 
@@ -30,13 +29,19 @@ public static void main(String[] args) {
   
     System.out.println("==========================================");
 
+ System.out.println("Array de cuentas bancarias");
+  System.out.println("==========================================");
 
- 
+        ArrayList<CuentaBancaria> listaDeCuentas = new ArrayList<>();
+        listaDeCuentas.add(cuenta1);
+        listaDeCuentas.add(cuenta2);
+        listaDeCuentas.add(cuenta3);
+
+ CuentaBancaria.imprimeInformacionDeTodasLasCuentas(listaDeCuentas);
+}
 }
 
 
 
 
 
-
-}
