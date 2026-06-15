@@ -34,3 +34,47 @@ VALUES(4,'Politica', 30);
 
 -- Revision insercion correcta 
 SELECT * FROM cursos;
+
+
+-- Insercion en tabla inscripciones
+
+-- ID ESTUDIANTE 2
+INSERT INTO inscripciones(id_inscripcion, id_estudiante, id_curso)
+VALUES(1,2,3);
+
+INSERT INTO inscripciones(id_inscripcion, id_estudiante, id_curso)
+VALUES(2,2,4);
+
+INSERT INTO inscripciones(id_inscripcion, id_estudiante, id_curso)
+VALUES(3,2,1);
+
+-- ID ESTUDIANTE 1
+INSERT INTO inscripciones(id_inscripcion, id_estudiante, id_curso)
+VALUES(4,1,3);
+
+INSERT INTO inscripciones(id_inscripcion, id_estudiante, id_curso)
+VALUES(5,1,4);
+
+-- ID ESTUDIANTE 3
+INSERT INTO inscripciones(id_inscripcion, id_estudiante, id_curso)
+VALUES(6,3,2);
+
+INSERT INTO inscripciones(id_inscripcion, id_estudiante, id_curso)
+VALUES(7,3,4);
+
+-- ID ESTUDIANTE 4
+INSERT INTO inscripciones(id_inscripcion, id_estudiante, id_curso)
+VALUES(8,4,2);
+
+INSERT INTO inscripciones(id_inscripcion, id_estudiante, id_curso)
+VALUES(9,4,3);
+
+-- ID ESTUDIANTE 5
+
+INSERT INTO inscripciones(id_inscripcion, id_estudiante, id_curso)
+VALUES(10,5,4);
+
+-- Revisamos insercion tabla inscripciones
+SELECT * FROM inscripciones;
+
+
