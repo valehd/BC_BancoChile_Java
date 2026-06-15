@@ -63,8 +63,6 @@ INSERT INTO inscripciones(id_inscripcion, id_estudiante, id_curso)
 VALUES(7,3,4);
 
 -- ID ESTUDIANTE 4
-INSERT INTO inscripciones(id_inscripcion, id_estudiante, id_curso)
-VALUES(8,4,2);
 
 INSERT INTO inscripciones(id_inscripcion, id_estudiante, id_curso)
 VALUES(9,4,3);
@@ -73,6 +71,9 @@ VALUES(9,4,3);
 
 INSERT INTO inscripciones(id_inscripcion, id_estudiante, id_curso)
 VALUES(10,5,4);
+
+INSERT INTO inscripciones(id_inscripcion, id_estudiante, id_curso)
+VALUES(11, 5, 3);
 
 -- Revisamos insercion tabla inscripciones
 SELECT * FROM inscripciones;
