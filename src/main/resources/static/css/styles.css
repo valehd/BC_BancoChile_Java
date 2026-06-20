@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+.container {
+    max-width: 700px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+.subtitle {
+    color: gray;
+}
+
+.recipe-list li,
+.ingredient-list li {
+    margin-bottom: 8px;
+}
+
+.recipe-link,
+.btn-back {
+    color: blue;
+    text-decoration: none;
+}
+
+.recipe-link:hover,
+.btn-back:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+.actions {
+    margin-top: 20px;
+}
