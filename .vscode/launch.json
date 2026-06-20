@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-LibrosyautoresApplication<librosyautores>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.valentinahernandez.LibrosyautoresApplication",
+            "projectName": "librosyautores",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
