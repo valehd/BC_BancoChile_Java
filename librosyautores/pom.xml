@@ -41,7 +41,6 @@
 			<scope>test</scope>
 		</dependency>
 
-<!-- Motor de Tomcat para procesar los archivos JSP -->
 <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
     <artifactId>tomcat-embed-jasper</artifactId>
