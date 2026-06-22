@@ -26,7 +26,22 @@
         <p>La canción solicitada no existe o no se pudo cargar.</p>
     </c:if>
 
+       <c:if test="${cancion == null}">
+        <p>La canción solicitada no existe o no se pudo cargar.</p>
+    </c:if>
+
     <br>
+    <a href="/canciones/formulario/editar/${cancion.id}">
+        <button>Actualizar Canción</button>
+    </a>
+
+        <a href="/canciones/eliminar/${cancion.id}">
+        <button style="background-color: #ff4d4d; color: white; border: none; padding: 6px 12px; cursor: pointer;">
+            Eliminar Canción
+        </button>
+    </a>
+
+    <br><br>
     <a href="/canciones">Volver a lista de canciones</a>
 </body>
 </html>

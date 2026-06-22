@@ -22,4 +22,14 @@ public class ServicioCanciones {
         Optional<Cancion> opcionalCancion = repositorioCanciones.findById(id);
         return opcionalCancion.orElse(null);
     }
+
+    public Cancion agregarCancion(Cancion cancion) {
+        return repositorioCanciones.save(cancion);
+    }
+    public Cancion actualizaCancion(Cancion cancion) {
+    return repositorioCanciones.save(cancion);
+}
+public void eliminaCancion(Long id) {
+    repositorioCanciones.deleteById(id);
+}
 }

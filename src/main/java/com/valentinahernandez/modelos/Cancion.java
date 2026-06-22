@@ -11,7 +11,7 @@ import jakarta.persistence.PrePersist;
 import jakarta.persistence.PreUpdate;
 import jakarta.persistence.Table;
 import org.springframework.format.annotation.DateTimeFormat;
-
+import jakarta.validation.constraints.Size;
 
 
 
@@ -23,14 +23,21 @@ public class Cancion {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-   
-   
     private Long id;
 
+    @Size(min = 5, message = "El título debe tener al menos 5 caracteres.")
     private String titulo;
+    
+    @Size(min = 3, message = "El artista debe tener al menos 3 caracteres.")
     private String artista;
+    
+    @Size(min = 3, message = "El álbum debe tener al menos 3 caracteres.")
     private String album;
+    
+    @Size(min = 3, message = "El género debe tener al menos 3 caracteres.")
     private String genero;
+    
+    @Size(min = 3, message = "El idioma debe tener al menos 3 caracteres.")
     private String idioma;
 
     @Column(updatable = false)
