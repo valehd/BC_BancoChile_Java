@@ -21,7 +21,7 @@
         </ul>
     </nav>
 
-    <div class="contenedor">
+    <div class="container">
         <h1>Pinturas</h1>
         <h2>${pintura.titulo}</h2>
 

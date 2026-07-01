@@ -12,7 +12,7 @@
 <body>
     <nav>
         <ul>
-            <li><a href="/mis-compras">Mis compras</a></li> 
+             <li><a href="/mis-compras">Mis compras</a></li> 
             <li><a href="/pinturas">Pinturas</a></li>
             <li><a href="/form/add">Agregar pintura</a></li>
             <li><a href="/logout">Logout</a></li>
@@ -53,14 +53,14 @@
 
             <div class="acciones-form">
                 <input type="submit" value="Editar" />
-         
+         </div>
         </form:form>
+           
 
-        <form action="/delete/${pintura.id}" method="POST">
+            <form action="/delete/${pintura.id}" method="POST" class="form-eliminar">
             <input type="hidden" name="_method" value="delete" />
             <input type="submit" value="Eliminar" class="btn-danger" />
         </form>
-           </div>
     </div>
 </body>
 </html>
