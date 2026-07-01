@@ -1,0 +1,235 @@
+
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Calibri, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px 60px;
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 40px;
+  right: 60px;
+}
+
+nav ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 56px;
+  font-weight: 900;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 32px;
+  margin: 0 0 24px 0;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 460px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 24px 24px 32px 24px;
+}
+
+label {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  margin: 0 0 4px 0;
+  border: 1px solid #999;
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+
+
+.error {
+  display: block;
+  color: #e53935;
+  font-size: 13px;
+  margin: 0 0 14px 0;
+}
+
+input[type="submit"] {
+  background-color: #4c4cff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.btn-danger {
+  background-color: #e53935 !important;
+}
+
+
+
+
+main {
+  width: 100%;
+  max-width: 800px;
+}
+
+main article, .detalle-card {
+  display: flex;
+  gap: 24px;
+  background-color: #e6e6e6;
+  padding: 24px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+
+
+main figure {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+main figure img {
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+}
+
+main article > section {
+  flex: 1;
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 20px;
+  position: relative;
+}
+
+
+
+main article h3 {
+  margin: 0 0 14px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main article > section p {
+  display: flex;
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+main article > section .label {
+  color: #999;
+  width: 90px;
+  flex-shrink: 0;
+}
+
+main article > section .valor {
+  font-weight: bold;
+  color: #111;
+}
+
+main article > section > a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.editar-icono {
+  position: absolute;
+  bottom: 18px;
+  right: 18px;
+  margin-right: 0 !important;
+  color: #333;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+main p.vacio {
+  color: #777;
+  font-size: 15px;
+}
+
+
+.btn-comprar {
+  background-color: #4c4cff;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+
+
+}
+
+.detalle-card > .detalle-info {
+  flex: 1;
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 5px;
+  
+}
+
+.agotado {
+  color: #e53935;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.compradores {
+  margin-top: 24px;
+}
+
+.titulo-compradores {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.compradores ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.compradores li {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
