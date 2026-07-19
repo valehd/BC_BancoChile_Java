@@ -1,0 +1,137 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  margin: 5px 15px;
+
+  display: flex;
+}
+
+section {
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.izquierda {
+  width: 450px;
+}
+
+.derecha {
+  width: 900px;
+}
+
+.tarjeta {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin: 10px 10px 40px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+p,
+h2,
+h3,
+span {
+  margin: 5px;
+  padding: 10px;
+  color: rgb(133, 101, 133);
+  display: flex;
+  align-items: center;
+}
+
+.imgSolicitud,
+.imgConexion {
+  width: 50px;
+  height: 50px;
+  border: 2px solid rgb(139, 105, 140);
+  margin: 5px;
+}
+.imgSolicitud {
+  border-radius: 5px;
+}
+.imgConexion {
+  border-radius: 50%;
+}
+
+/*Estilos tarjeta personal **/
+
+#imgPersonal {
+  width: 150px;
+  height: 150px;
+  margin-top: -70px;
+  margin-left: 80px;
+  position: relative;
+  border-radius: 50%;
+  border: 5px solid rgb(139, 105, 140);
+}
+
+.barraColor {
+  background-color: rgba(48, 5, 47, 0.387);
+  height: 150px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+h1 {
+  color: rgb(71, 2, 76);
+}
+
+.contenido {
+  padding: 30px 50px;
+}
+
+/**Barra de navegacion **/
+.navbar {
+  height: 20px;
+  background-color: rgb(71, 68, 68);
+  display: flex;
+  padding: 50px 20px;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: x-large;
+}
+nav a {
+  color: white;
+  font-size: large;
+
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.btncerrar {
+  color: white;
+  background-color: rgb(94, 198, 209);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.material-symbols-outlined {
+  font-size: xx-large;
+  color: rgb(231, 92, 134);
+  font: lighter;
+}
+
+#editar {
+  font-size: large;
+  color: rgb(111, 157, 250);
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 0;
+  margin: 0;
+}
+
+.editarperfil {
+  color: rgb(111, 157, 250);
+  background: none;
+  border: none;
+  font-size: medium;
+}
