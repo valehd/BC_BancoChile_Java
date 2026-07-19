@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="css/styles.css" >
+    <title>Examen 1</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Administrador de tareas</h1>
+    </header>
+
+    <main>
+      <aside class="menu">
+        <h2>
+          <img src="imgs/task-pro.png" alt="taskpro" >
+          TaskPro
+        </h2>
+
+        <ul>
+          <li>
+            <a href="#">
+              <img src="imgs/panel.png" alt="panel" >
+              Panel de Control
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="imgs/mis-tareas.png" alt="tareas" >
+              Mis Tareas
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                src="imgs/notificaciones-1.png"
+                alt="notificaciones"
+                id="notificacion"
+                onmouseover="cambiarImagen()"
+                onmouseout="cambiarImagen"
+              >Notificaciones
+            </a>
+          </li>
+          <li class="menu-abajo">
+            <a href="#"
+              ><img
+                src="imgs/configuracion.png"
+                alt="configuracion"
+              >Configuración
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="imgs/cerrar-sesion.png" alt="cerrarSesion" >
+              Cerrar Sesión
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <div class="ladoderecho">
+        <div class="barraInput">
+          <input type="text" id="textoingresado" >
+          <button id="crearTarea">+ Crear Tarea</button>
+          <img src="imgs/mensajes.png" alt="mensaje" >
+        </div>
+
+        <section class="tarjetas">
+          <div>
+            <img src="imgs/todos.png" alt="todos" ><span class="numtodas"
+              >8</span
+            >
+            <p>todas</p>
+          </div>
+          <div>
+            <img src="imgs/completados.png" alt="completos" >
+            <span class="numcompletas">3</span>
+            <p>Completadas</p>
+          </div>
+          <div>
+            <img src="imgs/en-proceso.png" alt="proceso" >
+            <span class="numproceso">4</span>
+            <p>En proceso</p>
+          </div>
+          <div>
+            <img src="imgs/pendientes.png" alt="pendiente" ><span
+              class="numpendientes"
+              >1</span
+            >
+            <p>pendientes</p>
+          </div>
+        </section>
+        <section class="tareas">
+          <h3>Mis Tareas</h3>
+          <div class="tarea">
+            <p>Terminar el reporte mensual</p>
+            <div class="imagenFecha">
+              <img src="imgs/puntos.png" alt="puntos" >
+              <span>Hoy</span>
+            </div>
+          </div>
+          <div class="tarea">
+            <p>Maquetar el sitio web</p>
+            <div class="imagenFecha">
+              <img src="imgs/puntos.png" alt="puntos" > <span>Hoy</span>
+            </div>
+          </div>
+
+          <div class="tarea">
+            <p>Agregar funcionalidades al sitio web</p>
+            <div class="imagenFecha">
+              <img src="imgs/puntos.png" alt="puntos" > <span>Mañana</span>
+            </div>
+          </div>
+          <div class="tarea">
+            <p>Desplegar la aplicación</p>
+            <div class="imagenFecha">
+              <img src="imgs/puntos.png" alt="puntos" >
+              <span>Esta semana</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
